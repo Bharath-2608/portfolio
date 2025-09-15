@@ -117,7 +117,7 @@
             box-shadow: 0 10px 25px rgba(255, 107, 90, 0.3);
         }
 
-        .btn-secondary {
+        .btn-secondary1 {
             background: linear-gradient(135deg, rgb(109, 10, 10), blue);
             color: #ffffff;
             padding: 12px 30px;
@@ -129,7 +129,25 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .btn-secondary:hover {
+        .btn-secondary1:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 107, 90, 0.3);
+        }
+
+        
+        .btn-secondary2 {
+            background: linear-gradient(135deg, green, yellow);
+            color: #ffffff;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+         .btn-secondary2:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 25px rgba(255, 107, 90, 0.3);
         }
@@ -595,4 +613,5 @@
 
         .profile-container {
             animation: slideInFromRight 1s ease-out, floatAnimation 4s ease-in-out infinite 1s;
+
         }
