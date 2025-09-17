@@ -7,7 +7,7 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background-image: linear-gradient(green, rgb(253, 163, 45), rgb(253, 163, 45),cyan,pink);
+            background-image: linear-gradient(cyan, rgb(253, 163, 45), rgb(253, 163, 45),cyan,pink);
             color: #ffffff;
             line-height: 1.6;
         }
@@ -614,6 +614,7 @@
             animation: slideInFromRight 1s ease-out, floatAnimation 4s ease-in-out infinite 1s;
 
         }
+
 
 
 
